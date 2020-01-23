@@ -1,0 +1,54 @@
+{
+    "name": "github-dark-theme",
+    "version": "1.0.38",
+    "description": "change appearance of all GitHub pages to a dark theme",
+    "license": "MIT",
+    "author": "Poy Chang <poypost@gmail.com>",
+    "contributors": [
+        "Jeff Wu <crazy.alu@outlook.com>",
+        "Jimmy <jiaming0708@gmail.com>",
+        "Poy Chang <poypost@gmail.com>",
+        "Tariq <tariq.86@pm.me>",
+        "Vladimir Mikhaylovskiy <vlad@indiegogo.com>",
+        "Vinyl Darkscratch <vinyldarkscratch@gmail.com> (https://www.queengoob.org)"
+    ],
+    "scripts": {
+        "serve": "live-server",
+        "watch": "webpack --config webpack/webpack.dev.js --watch",
+        "build": "webpack --config webpack/webpack.prod.js",
+        "build-edge": "webpack --config webpack/webpack.edge.js",
+        "build-chrome": "webpack --config webpack/webpack.chrome.js",
+        "build-firefox": "webpack --config webpack/webpack.firefox.js",
+        "clean": "rimraf dist && rimraf dist-chrome && rimraf dist-firefox",
+        "version+": "node scripts/version+.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:poychang/github-dark-theme.git"
+    },
+    "dependencies": {
+        "@types/angular": "^1.6.57",
+        "angular": "^1.7.9",
+        "bulma": "^0.7.5",
+        "bulma-extensions": "^6.2.7"
+    },
+    "devDependencies": {
+        "@types/chrome": "0.0.91",
+        "@types/jquery": "^3.3.31",
+        "@wext/shipit": "^0.2.1",
+        "copy-webpack-plugin": "^5.0.5",
+        "css-loader": "^3.1.0",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "live-server": "^1.2.1",
+        "node-sass": "^4.13.0",
+        "rimraf": "^2.7.1",
+        "sass-loader": "^7.3.1",
+        "style-loader": "^0.23.1",
+        "ts-loader": "^6.2.1",
+        "typescript": "~3.7.3",
+        "url-loader": "^2.3.0",
+        "webpack": "~4.37.0",
+        "webpack-cli": "~3.3.10",
+        "webpack-merge": "~4.2.2"
+    }
+}

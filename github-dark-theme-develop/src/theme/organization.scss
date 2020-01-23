@@ -1,0 +1,69 @@
+.steps li {
+    background-color: $comment-bg !important;
+    color: $text-color !important;
+}
+
+.setup-info-module {
+    background-color: $comment-bg !important;
+}
+
+.autocomplete-results {
+    background: $dropdown-bg !important;
+
+    .member-suggestion {
+        .member-suggestion-info {
+            .member-login {
+                color: $bright-text-color !important;
+            }
+
+            .member-name {
+                color: $text-color !important;
+            }
+        }
+    }
+}
+
+.Box-row--gray {
+    background-color: $comment-bg !important;
+}
+
+.menu-heading {
+    background-color: $head-bg !important;
+}
+
+.project-header {
+    background-color: $head-bg !important;
+}
+
+.project-column {
+    background-color: $comment-bg !important;
+}
+
+.oauth-application-whitelist .request-info strong {
+    color: $text-color !important;
+}
+
+.Subhead-description {
+    color: $faded-link-color !important;
+}
+
+.SelectMenu {
+    .SelectMenu-modal {
+        border: 1px solid $border-color !important;
+
+        .SelectMenu-header {
+            background-color: $bg-color !important;
+        }
+        .SelectMenu-item {
+            background-color: $block-bg !important;
+            border-bottom: 1px solid $border-color !important;
+        }
+        .SelectMenu-list {
+            border-top: 1px solid $border-color !important;
+        }
+
+        footer {
+            border-top: 1px solid $border-color !important;
+        }
+    }
+}
