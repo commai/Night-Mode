@@ -16,10 +16,8 @@ function getStoredSettings(callback) {
         var settings;
         if (storedSettings != null) {
             settings = storedSettings;
-        } else if (storedMode != null) {
-            settings = _convertLegacyModeToSettings(storedMode);
         } else {
-            settings = _convertLegacyModeToSettings(CHARCOAL_MODE);
+            settings = _convertLegacyModeToSettings(DEEPBLUE_MODE);
         }
 
         callback(settings);
