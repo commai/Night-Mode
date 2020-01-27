@@ -55,24 +55,12 @@ body, h1, h2, h3, h4, h5, h6, input, select, textarea,
 ._1nc7 ._pye, ._1nc6 ._pye, ._hh7 ._pye, ._3x6v, .__6m,
 ._2mjl, ._5qd5 ._5qco, ._3wan, ._kmc._7kpg ._1p1t, ._1lj0._6ybm,
 ._225b._6ybl {
-  .charcoal_theme & {
-    color: @secondary-text;
-  }
-  .midnight_theme & {
-    color: @m-secondary-text;
-  }
   .deepblue_theme & {
     color: @db-secondary-text;
   }
 }
 
 ._kmc._7kpg ._1p1t {
-  .charcoal_theme & {
-    -webkit-text-fill-color: @secondary-text;
-  }
-  .midnight_theme & {
-    -webkit-text-fill-color: @m-secondary-text;
-  }
   .deepblue_theme & {
     -webkit-text-fill-color: @db-secondary-text;
   }
@@ -82,12 +70,6 @@ body, h1, h2, h3, h4, h5, h6, input, select, textarea,
 ._58al::placeholder, ._39r7, ._1-sv,
 ._1-sy ._1-sz::before, ._ipw._1c9h ._1-sz::before,
 ._4lh7, ._682i, ._2d0c, ._558b ._54nc, ._8jd, ._2n9y, ._87b_ {
-  .charcoal_theme & {
-    color: @secondary-text!important;
-  }
-  .midnight_theme & {
-    color: @m-secondary-text!important;
-  }
   .deepblue_theme & {
     color: @db-secondary-text!important;
   }
@@ -95,12 +77,6 @@ body, h1, h2, h3, h4, h5, h6, input, select, textarea,
 
 // link
 a {
-  .charcoal_theme & {
-    color: @link-text;
-  }
-  .midnight_theme & {
-    color: @m-link-text;
-  }
   .deepblue_theme & {
     color: @db-link-text;
   }
@@ -115,14 +91,6 @@ a {
 
 // message by someone else
 ._hh7, ._hh7 a {
-  .charcoal_theme & {
-    color: @other-message-text;
-    -webkit-font-smoothing: auto;
-  }
-  .midnight_theme & {
-    color: @m-other-message-text;
-    -webkit-font-smoothing: auto;
-  }
   .deepblue_theme & {
     color: @db-other-message-text;
     -webkit-font-smoothing: auto;
@@ -131,14 +99,6 @@ a {
 
 // message by me
 ._nd_ ._hh7, ._nd_ ._hh7 a  {
-  .charcoal_theme & {
-    color: @me-message-text;
-    -webkit-font-smoothing: auto;
-  }
-  .midnight_theme & {
-    color: @m-me-message-text;
-    -webkit-font-smoothing: auto;
-  }
   .deepblue_theme & {
     color: @db-me-message-text;
     -webkit-font-smoothing: auto;
@@ -147,12 +107,6 @@ a {
 
 // original message in reply by me
 ._1nc6 ._pye, ._nd_ ._hh7:active ._pye, ._nd_._-5k ._hh7 ._pye, ._nd_ ._hh7 ._pye {
-  .charcoal_theme & {
-    color: lighten(@me-message-text, 20%);
-  }
-  .midnight_theme & {
-    color: fade(@m-me-message-text, 90%);
-  }
   .deepblue_theme & {
     color: fade(@db-me-message-text, 80%);
   }
@@ -160,12 +114,6 @@ a {
 
 // message by me checkmark
 ._3i_m ._9ah ._57e_ {
-  .charcoal_theme & {
-    color: @me-message-text;
-  }
-  .midnight_theme & {
-    color: @m-me-message-text;
-  }
   .deepblue_theme & {
     color: @db-me-message-text;
   }
@@ -173,14 +121,14 @@ a {
 
 // search result highlight color in message
  .__in {
-  .charcoal_theme &, .midnight_theme &, .deepblue_theme & {
+   .deepblue_theme & {
     color: black;
   }
  }
 
  // record button for microphone
  ._3z56 {
-  .charcoal_theme &, .midnight_theme &, .deepblue_theme & {
+   .deepblue_theme & {
     color: white;
   }
  }
@@ -192,12 +140,6 @@ body, ._4sp8, ._59s7, ._4eby, ._33p7, ._4gd0, ._4jgp ._4jgu,
 html ._55r1, ._30h0, ._682j, ._3u69, ._3s-4, ._2zl5,
 ._2-x5, ._585r, ._7jxv, ._4_j4 .chatAttachmentShelf, ._3nta,
 ._5irm._7mkm, ._7t1o, {
-  .charcoal_theme & {
-    background-color: @screen-background!important;
-  }
-  .midnight_theme & {
-    background-color: @m-screen-background!important;
-  }
   .deepblue_theme & {
     background-color: @db-screen-background!important;
   }
@@ -205,12 +147,6 @@ html ._55r1, ._30h0, ._682j, ._3u69, ._3s-4, ._2zl5,
 
 // thumbs up icon fill overrride
 ._3058._15gf svg > rect {
-  .charcoal_theme & {
-    fill: @screen-background!important;
-  }
-  .midnight_theme & {
-    fill: @m-screen-background!important;
-  }
   .deepblue_theme & {
     fill: @db-screen-background!important;
   }
@@ -218,41 +154,17 @@ html ._55r1, ._30h0, ._682j, ._3u69, ._3s-4, ._2zl5,
 
 // message by someone else
 ._hh7, ._29_7 ._3058._s1-._6e6n, .__6j._43kk {
-  .charcoal_theme & {
-    background-color: @other-message-background;
-  }
-
-  .midnight_theme & {
-    background-color: @m-other-message-background;
-  }
-
   .deepblue_theme & {
     background-color: @db-other-message-background;
   }
 
   &:hover {
-    .charcoal_theme & {
-      background-color: @other-message-background;
-    }
-
-    .midnight_theme & {
-      background-color: @m-other-message-background;
-    }
-
     .deepblue_theme & {
       background-color: @db-other-message-background;
     }
   }
 
   &:active {
-    .charcoal_theme & {
-      background-color: lighten(@other-message-background, 3%);
-    }
-
-    .midnight_theme & {
-      background-color: lighten(@m-other-message-background, 3%);
-    }
-
     .deepblue_theme & {
       background-color: lighten(@db-other-message-background, 3%);
     }
@@ -261,7 +173,7 @@ html ._55r1, ._30h0, ._682j, ._3u69, ._3s-4, ._2zl5,
 
 // override hovers on my messages if no theme set
 ._nd_ ._3058._s1-._4k7c:hover, ._3erg ._4k7c:hover, ._nd_ ._hh7, ._nd_ ._hh7:hover {
-  .charcoal_theme &, .midnight_theme &, .deepblue_theme & {
+  .deepblue_theme & {
     background-color: @messenger-blue;
   }
 }
@@ -269,18 +181,12 @@ html ._55r1, ._30h0, ._682j, ._3u69, ._3s-4, ._2zl5,
 // preserve clear backgrounds {
 ._hh7._6ybn._2f5r, ._hh7._6ybn:active._2f5r, ._-5k ._hh7._6ybn._2f5r,
 ._6q1a ._hh7._6ybn._2f5r, ._6q1a ._hh7._6ybn:active._2f5r, ._6q1a ._-5k ._hh7._6ybn._2f5r {
-  .charcoal_theme &, .midnight_theme &, .deepblue_theme & {
+   .deepblue_theme & {
     background: none;
   }
 }
 
 ._7kpk, ._7-_v, ._6-xp, ._6ymu, ._6ybv, ._6y56, ._6ybz, ._7hu0, ._7hu1, ._7hty, {
-  .charcoal_theme & {
-    background-color: @input-container-background!important;
-  }
-  .midnight_theme & {
-    background-color: @m-input-container-background!important;
-  }
   .deepblue_theme & {
     background-color: @db-input-container-background!important;
   }
@@ -288,24 +194,13 @@ html ._55r1, ._30h0, ._682j, ._3u69, ._3s-4, ._2zl5,
 
 ._558b ._54ng, ._2y8_, ._49no, ._53ij, ._2z8r,
 ._4lh2, ._3rh0, ._10sf, ._29hl._13iv, ._4wzs {
-  .charcoal_theme & {
-    background-color: @dropdown-background!important;
-  }
-  .midnight_theme & {
-    background-color: @m-dropdown-background!important;
-  }
   .deepblue_theme & {
     background-color: @db-dropdown-background!important;
   }
 }
 
 ._hw2 ._53ij {
-  .charcoal_theme & {
-    background-color: tint(@screen-background, 10%)!important;
-  }
-  .midnight_theme & {
-    background-color: tint(@m-screen-background, 10%)!important;
-  }
+  
   .deepblue_theme & {
     background-color: tint(@db-screen-background, 10%)!important;
   }
@@ -313,12 +208,7 @@ html ._55r1, ._30h0, ._682j, ._3u69, ._3s-4, ._2zl5,
 
 // modal overlay
 ._4-hy ._3ixn {
-  .charcoal_theme & {
-    background-color: rgba(83, 83, 83, 0.4);
-  }
-  .midnight_theme & {
-    background-color: rgba(70, 70, 70, 0.4);
-  }
+ 
   .deepblue_theme & {
     background-color: rgba(0, 0, 0, 0.4);
   }
@@ -326,12 +216,7 @@ html ._55r1, ._30h0, ._682j, ._3u69, ._3s-4, ._2zl5,
 
 // search input
 ._5iwm ._58al, ._2pgc, ._9fw {
-  .charcoal_theme & {
-    background-color: rgba(255, 255, 255, 0.05)!important;
-  }
-  .midnight_theme & {
-    background-color: rgba(255, 255, 255, 0.09)!important;
-  }
+  
   .deepblue_theme & {
     background-color: rgba(0, 0, 0, 0.20)!important;
   }
@@ -341,12 +226,7 @@ html ._55r1, ._30h0, ._682j, ._3u69, ._3s-4, ._2zl5,
 // reaction-specific dropdown for choosing a reaction
 ._4owc ._53ij,
 ._5r8a._5r8b, {
-  .charcoal_theme & {
-    background-color: @reactions-background!important;
-  }
-  .midnight_theme & {
-    background-color: @m-reactions-background!important;
-  }
+  
   .deepblue_theme & {
     background-color: @db-reactions-background!important;
   }
@@ -354,12 +234,7 @@ html ._55r1, ._30h0, ._682j, ._3u69, ._3s-4, ._2zl5,
 
 // sectioned header
 ._225b {
-  .charcoal_theme & {
-    background-color: rgba(255, 255, 255, 0.04);
-  }
-  .midnight_theme & {
-    background-color: rgba(255, 255, 255, 0.07);
-  }
+ 
   .deepblue_theme & {
     background-color: rgba(0, 0, 0, 0.11);
   }
@@ -371,11 +246,6 @@ html ._55r1, ._30h0, ._682j, ._3u69, ._3s-4, ._2zl5,
 ._3szo ._17vc, ._3szo ._3wh2, ._3szo svg, ._fl2 li, ._gs3 ._7h5m,
 ._4rph ._4rpi, ._4rv3 ._4rv9, ._4rv3 ._38lh {
   .charcoal_theme & {
-      filter: brightness(@chat-theme-brightness);
-    }
-    .midnight_theme & {
-      filter: brightness(@m-chat-theme-brightness);
-    }
     .deepblue_theme & {
       filter: brightness(@db-chat-theme-brightness);
     }
@@ -383,12 +253,6 @@ html ._55r1, ._30h0, ._682j, ._3u69, ._3s-4, ._2zl5,
 
 ._2oc8, ._2fug, ._4eby ._5ixy, ._3quh, ._1ht3 ._1ht7, ._-19._b-u, ._-19._b-v,
 .sp_3MZ0xziO-l7_2x.sx_424f45 {
-  .charcoal_theme & {
-    filter: brightness(@messenger-blue-brightness);
-  }
-  .midnight_theme & {
-    filter: brightness(@m-messenger-blue-brightness);
-  }
   .deepblue_theme & {
     filter: brightness(@db-messenger-blue-brightness);
   }
@@ -397,12 +261,6 @@ html ._55r1, ._30h0, ._682j, ._3u69, ._3s-4, ._2zl5,
 /* -------------- BORDER COLORS -------------- */
 
 ._1t2u, ._2y8_ {
-  .charcoal_theme & {
-    border-color: @primary-border!important;
-  }
-  .midnight_theme & {
-    border-color: @m-primary-border!important;
-  }
   .deepblue_theme & {
     border-color: @db-primary-border!important;
   }
@@ -417,12 +275,6 @@ html ._55r1, ._30h0, ._682j, ._3u69, ._3s-4, ._2zl5,
 ._2m5p, ._3b4t, ._4coo, ._1jx4, ._2zl5, ._3g_j ._58an,
 ._4_j4 .chatAttachmentShelf, ._3nta, ._5qd9, ._3wb1, ._3war,
 ._3wax, ._3way, ._4wzs, ._67tu, ._3_e8._7slg::before, ._673w._6ynl::after {
-  .charcoal_theme & {
-    border-color: @secondary-border!important;
-  }
-  .midnight_theme & {
-    border-color: @m-secondary-border!important;
-  }
   .deepblue_theme & {
     border-color: @db-secondary-border!important;
   }
@@ -430,12 +282,6 @@ html ._55r1, ._30h0, ._682j, ._3u69, ._3s-4, ._2zl5,
 
 // match border with screen
 ._4mnq, ._849n, ._7q1i, ._7q0v, ._7q1l, ._7q1n, {
-  .charcoal_theme & {
-    border-color: @screen-background!important;
-  }
-  .midnight_theme & {
-    border-color: @m-screen-background!important;
-  }
   .deepblue_theme & {
     border-color: @db-screen-background!important;
   }
