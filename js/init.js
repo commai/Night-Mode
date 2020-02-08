@@ -25,24 +25,7 @@ getStoredSettings(function(storedSettings) {
         `);
 
         // show settings on click
-        let charcoalIcon = document.getElementsByClassName("charcoal_toggle")[0];
-        charcoalIcon.onclick = _openSettings;
-
-        // allow tapping outside settings dropdown to dismiss it
-        window.onclick = function(e) {
-            if (!_settingsIsOpen()) { return; }
-
-            let currentDropDown = _getCurrentDropdown();
-
-            // don't dismiss if click happened inside settings dropdown
-            var target = e.target;
-            do {
-                if (target == currentDropDown) { return; }
-                target = target.parentNode;
-            } while (target);
-
-            _transitionDropdown(null);
-        }
+    
 
         // listen for external updates (settings dropdown, popup)
         listenForSettingsUpdates(function(newSettings) {
