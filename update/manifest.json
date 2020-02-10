@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Twitter Messenger",
+  "short_name": "Darken",
+  "description": "Unofficial Messenger dark mode. Easily swap between dark and light mode.",
+  "version": "1",
+  "icons": {
+    "128": "assets/icon@128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.messenger.com/*"],
+      "css": ["styles/stylesheet.css"],
+      "js": ["init.js"]
+    }
+  ],
+  "permissions": [
+		"activeTab",
+		"storage",
+		"tabs",
+		"*://*/*"
+	],
+  "web_accessible_resources": [
+    "assets/deepblue-messenger.svg",
+    "settings.html"
+  ]
+}
